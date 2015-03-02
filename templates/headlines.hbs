@@ -9,11 +9,22 @@
 
   <h1>Bustle Imposter</h1>
 
-  <ul>
-    <li>{{#link-to 'article1'}}He Never Knew What Was Coming{{/link-to}}</li>
-    <li>{{#link-to 'article2'}}Hippos? Hungry and on the Loose?{{/link-to}}</li>
-    <li>{{#link-to 'article3'}}Castiron Scourge{{/link-to}}</li>
-    <li>{{#link-to 'article4'}}Llamas Loose in LA!{{/link-to}}</li>
-  </ul>
+  <div class="row">
+    <div class="col-md-6 preview">
+      {{#link-to 'article1'}}<img src="../img/hot_surprise.jpg" alt=""/><p>He Never Knew What Was Coming</p>{{/link-to}}
+    </div>
+    <div class="col-md-6 preview">
+      {{#link-to 'article2'}}<img src="../img/hippo.jpg" alt=""/><p>Hippos? Hungry and on the Loose?</p>{{/link-to}}
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 preview">
+      {{#link-to 'article3'}}<img src="../img/monkey01.jpg" alt=""/><p>Castiron Scourge</p>{{/link-to}}
+    </div>
+    <div class="col-md-6 preview">
+      {{#link-to 'article4'}}<img src="../img/plumbing_nightmare.jpg" alt=""/><p>Llamas Loose in LA!</p>{{/link-to}}
+    </div>
+  </div>
 
 </div>
