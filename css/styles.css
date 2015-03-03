@@ -1,3 +1,11 @@
+h1 {
+  float: left;
+  }
+
+.navbar-nav {
+  float: right;
+}
+
 li {
   list-style-type: none;
 }
